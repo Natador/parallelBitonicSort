@@ -1,0 +1,41 @@
+size = 1024
+time (ms): 2.103000
+Application 15519167 resources: utime ~0s, stime ~0s, Rss ~4972, inblocks ~6494, outblocks ~16214
+size = 8192
+time (ms): 156.035000
+Application 15519169 resources: utime ~0s, stime ~0s, Rss ~4972, inblocks ~6494, outblocks ~16354
+size = 131072
+time (ms): 42100.733000
+Application 15519170 resources: utime ~42s, stime ~0s, Rss ~5508, inblocks ~6494, outblocks ~19348
+size = 1024
+time (ms): 0.576000
+Application 15519171 resources: utime ~1s, stime ~0s, Rss ~8712, inblocks ~13018, outblocks ~32412
+size = 8192
+time (ms): 37.327000
+Application 15519172 resources: utime ~1s, stime ~0s, Rss ~8932, inblocks ~13018, outblocks ~32552
+size = 131072
+time (ms): 10520.444000
+Application 15519173 resources: utime ~23s, stime ~0s, Rss ~11544, inblocks ~13055, outblocks ~35547
+size = 1024
+time (ms): 0.253000
+Application 15519174 resources: utime ~3s, stime ~0s, Rss ~8664, inblocks ~26044, outblocks ~64808
+size = 8192
+time (ms): 9.206000
+Application 15519175 resources: utime ~3s, stime ~1s, Rss ~8936, inblocks ~26045, outblocks ~64948
+size = 131072
+time (ms): 2623.124000
+Application 15519176 resources: utime ~15s, stime ~0s, Rss ~11020, inblocks ~26089, outblocks ~67943
+size = 1024
+time (ms): 0.256000
+Application 15519177 resources: utime ~7s, stime ~0s, Rss ~8664, inblocks ~52097, outblocks ~129600
+size = 8192
+time (ms): 2.594000
+Application 15519178 resources: utime ~7s, stime ~2s, Rss ~8956, inblocks ~52097, outblocks ~129740
+size = 131072
+time (ms): 649.964000
+Application 15519179 resources: utime ~15s, stime ~0s, Rss ~11024, inblocks ~52128, outblocks ~132734
+Job Cleanup ran on Sat Apr 14 15:26:38 EDT 2018
+===============================
+submit_args  : 	 submit_args = run_bitonic_variable.pbs
+NIDS         : 	 8,10,12-13,17,19,21-22
+NID Placement: 	 8/1 10/1 12/1 13/1 17/1 19/1 21/1 22/1 

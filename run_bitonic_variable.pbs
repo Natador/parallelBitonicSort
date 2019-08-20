@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -l nodes=8
+#PBS -l walltime=00:20:00
+#PBS -N bitonic_8nodes
+#PBS -M nadacant@iupui.edu
+#PBS -m abe
+#PBS -q cpu
+#PBS -V
+
+# Print header information in fresh timing.csv file
+rm -f timing.csv
+echo "Nodes,Size,Time(ms)" >> timing.csv
+
+# Run the jobs for each size
+aprun -n 1 ~/Tasks/Task6/bitonic 1024
+aprun -n 1 ~/Tasks/Task6/bitonic 8192
+aprun -n 1 ~/Tasks/Task6/bitonic 131072
+aprun -n 2 ~/Tasks/Task6/bitonic 1024
+aprun -n 2 ~/Tasks/Task6/bitonic 8192
+aprun -n 2 ~/Tasks/Task6/bitonic 131072
+aprun -n 4 ~/Tasks/Task6/bitonic 1024
+aprun -n 4 ~/Tasks/Task6/bitonic 8192
+aprun -n 4 ~/Tasks/Task6/bitonic 131072
+aprun -n 8 ~/Tasks/Task6/bitonic 1024
+aprun -n 8 ~/Tasks/Task6/bitonic 8192
+aprun -n 8 ~/Tasks/Task6/bitonic 131072
