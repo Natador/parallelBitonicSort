@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
 
 	// Filename and pointer to timing file
 	FILE* timefp;
-	char timefname[] = "/gpfs/home/n/a/nadacant/BigRed2/Tasks/Task6/timing.csv";
+	char timefname[] = "timing.csv";
 
 	// Arrays to hold the integers, both in the master and in the slaves
 	int *start_arr;

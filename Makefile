@@ -1,4 +1,4 @@
-CC = cc
+CC = mpicc
 LFS = -lm
 bitonic: bitonic.c
 	$(CC) -o $@ $^ $(LFS)
