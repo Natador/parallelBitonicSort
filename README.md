@@ -1,5 +1,7 @@
 # Parallel Bitonic Sort
-Task 6 in my parallel processing course which implements Bitonic Sort on an MPI machine
+A task in my parallel processing course which implements the [Bitonic Sort](https://en.wikipedia.org/wiki/Bitonic_sorter) algorithm on a multiprocessing machine with MPI (Message Passing Interface) support.
+
+Bitonic sort is a sorting algorithm particularly well-suited for multicomputers. The project was designed to be run and tested on IU's [Big Red 2](https://kb.iu.edu/d/bcqt) supercomputing cluster with multiple machines/nodes. MPI provides the concurrent, message-passing paralle computing support which enables the bitonic sort algorithm to work in parallel.
 
 ## Dependencies, Installation, and Use
 parallelBitonicSort requires [MPICH](https://www.mpich.org/) to run. On Ubuntu or Debian, this can be accomplished by:
